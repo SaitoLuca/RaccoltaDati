@@ -4,4 +4,8 @@
     <string name="btnSart">start service</string>
     <string name="btnEnd">end service</string>
     <string name="jobDescTrue">service running in background</string>
+    <string name="perm1" translatable="false">PACKAGE USAGE STATS</string>
+    <string name="perm2" translatable="false">ACTIVITY RECOGNITION</string>
+    <string name="perm3" translatable="false"> </string>
+    <string name="enblPerm">enable permissions</string>
 </resources>

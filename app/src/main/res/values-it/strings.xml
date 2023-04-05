@@ -5,4 +5,5 @@
     <string name="btnSart">avvia servizio</string>
     <string name="btnEnd">ferma servizio</string>
     <string name="jobDescTrue">servizio in esecuzione in background</string>
+    <string name="enblPerm">abilità permessi</string>
 </resources>
