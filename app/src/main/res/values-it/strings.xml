@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CollezionaDati</string>
+    <string name="jobDescFalse">servizio non in esecuzione</string>
+    <string name="btnSart">avvia servizio</string>
+    <string name="btnEnd">ferma servizio</string>
+    <string name="jobDescTrue">servizio in esecuzione in background</string>
+</resources>

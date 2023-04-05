@@ -1,7 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">DataCollector</string>
-    <string name="jobDescFalse">service currently not running</string>
     <string name="btnSart">start service</string>
     <string name="btnEnd">end service</string>
+    <string name="jobDescFalse">service currently not running</string>
     <string name="jobDescTrue">service running in background</string>
 </resources>
