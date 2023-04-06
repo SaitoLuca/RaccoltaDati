@@ -5,5 +5,6 @@
     <string name="btnSart">avvia servizio</string>
     <string name="btnEnd">ferma servizio</string>
     <string name="jobDescTrue">servizio in esecuzione in background</string>
-    <string name="enblPerm">abilità permessi</string>
+    <string name="enblPerm">abilita permessi</string>
+    <string name="askPermDesc">se tutti i permessi sono verdi, premi nuovamente il bottone per tornare in dietro</string>
 </resources>

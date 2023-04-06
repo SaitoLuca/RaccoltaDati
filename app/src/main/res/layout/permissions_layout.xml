@@ -15,35 +15,52 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.5">
 
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:layout_marginBottom="10dp">
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
 
-            <TextView
-                android:id="@+id/txtPerm1"
-                android:layout_width="match_parent"
+            <LinearLayout
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/perm1" />
+                android:orientation="vertical"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
 
-            <TextView
-                android:id="@+id/txtPerm2"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/perm2" />
+                <TextView
+                    android:id="@+id/txtPerm1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/perm1" />
 
-            <TextView
-                android:id="@+id/txtPerm3"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/perm3" />
-        </LinearLayout>
+                <TextView
+                    android:id="@+id/txtPerm2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/perm2" />
+
+                <TextView
+                    android:id="@+id/txtPerm3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/perm3" />
+            </LinearLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
 
         <Button
             android:id="@+id/btnEnable"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:padding="1dp"
+            android:text="@string/enblPerm" />
+
+        <TextView
+            android:id="@+id/txtAsk_desc"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/enblPerm" />
+            android:minHeight="50dp"
+            android:text="@string/askPermDesc"
+            android:textAlignment="center" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

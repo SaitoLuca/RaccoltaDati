@@ -8,4 +8,5 @@
     <string name="perm2" translatable="false">ACTIVITY RECOGNITION</string>
     <string name="perm3" translatable="false"> </string>
     <string name="enblPerm">enable permissions</string>
+    <string name="askPermDesc">if all permissions are green, click again the button to go back</string>
 </resources>
